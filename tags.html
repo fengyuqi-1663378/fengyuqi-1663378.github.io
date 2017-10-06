@@ -3,12 +3,29 @@
 	<head>
 		<title>Yuqi's Website!</title>
 	</head>
-	<body style="background-color:hsl(9, 100%, 80%)">
-		<h1>Yuqi Feng</h1>
-		<h2>About me</h2>
+	<style>
+		body{
+			background-color: hsl(1, 30%, 80%);
+		}
+		h2 {
+			border: 2px solid black;
+			padding: 10px 40px; 
+			width: 300px;
+		}
+		#borderimg1 { 
+			border: 15px solid transparent;
+			padding: 15px;
+			border-image-source: url(border.png);
+			border-image-repeat: stretch;    
+			border-image-slice: 30;
+		}
+	</style>
+	<body>
+		<h1 style="text-align:center">Yuqi Feng</h1>
+		<h2 id="borderimg1">About me</h2>
 		<p style="font-family:verdana">I was born in Nanjing, a city full of Chinese history. I studied abroad to broaden my horizon. </p>
 		<p style="font-family:verdana">I am now a sophmore in UW majoring Computer Science.</p>
-		<h2>My Favorite Sites!</h2>
+		<h2 id="borderimg1">My Favorite Sites!</h2>
 		<ul>
 			<li>
 				<a href = "https://courses.cs.washington.edu/courses/cse311/17au/">CSE 311 course page</a>
@@ -26,21 +43,19 @@
 				<a href = "https://my.uw.edu/">MyUW</a>
 			</li>
 		</ul>
-		<h2>My Favorite Pictures!</h2>
+		<h2 id="borderimg1">My Favorite Pictures!</h2>
 			<a href = "http://dogtime.com/dog-breeds/siberian-husky#/slide/1">
 				<img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/siberian-husky-dog-breed-pictures/siberian-husky-dog-breed-pictures-3.jpg" title="A Cute Husky" style="width:100px;height:100px;margin:5px">
 			</a>
 			<a href = "https://www.pinterest.com/pin/47147127323883408">
 				<img src="https://i.pinimg.com/736x/50/b4/db/50b4db0e7652049b463cad56034e2ea4--pink-trees-peach-trees.jpg" title="Beautiful Cherry Blossom" style="width:100px;height:100px;margin:5px">
 			</a>
-		<h2>One of my favorite quotes!</h2>
+		<h2 id="borderimg1">One of my favorite quotes!</h2>
 		<blockquote cite="https://www.brainyquote.com/quotes/quotes/e/eleanorroo126913.html">
 		It is better to light a candle than curse the darkness.
 		</blockquote>
-		<div style="background-color:black;color:white;padding:20px;">
-			<h2>University of Washington</h2>
-			<p>UW is the most beautiful campus among all colleges.</p>
-		</div>
+		<br>
+		<br>
 		<h3>Tell me your card info!</h3>
 		<form action="/action_page.php">
 			<fieldset>
@@ -56,5 +71,10 @@
 				<input type="submit" value="Submit">
 		  </fieldset>
 		</form>
+		<br>
+		<div style="background-color:black;color:white;padding:20px;">
+			<h3>University of Washington</h3>
+			<p>UW is the most beautiful campus among all colleges.</p>
+		</div>
 	</body>
 </html>
