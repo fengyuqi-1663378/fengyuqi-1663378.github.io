@@ -1,0 +1,63 @@
+
+body {
+    background-color: black;
+}
+
+h1,p{
+    color: white;
+	text-align: center;
+}
+blockquote{
+	color: white;
+}
+
+.img0 {	
+	float: left;
+	margin: 0 0 10px 10px;
+}
+
+.img1{
+	margin: 0 0 20px 10px;
+	
+}
+
+.img2 {
+    float: right;
+	margin: 0 0 10px 10px;
+}
+
+.intro{
+	float:right;
+    border: 2px solid lightblue;
+    padding: 20px 40px; 
+    background: #dddddd;
+    width: 300px;
+    border-radius: 25px;
+	text-align:center;
+	color: royalblue;
+}
+.menu{
+    border: 2px solid lightblue;
+    padding: 20px 40px; 
+    background: #dddddd;
+    width: 300px;
+    border-radius: 25px;
+	text-align:center;
+	color: royalblue;
+	margin: auto;
+}
+ul{
+	text-align:center;
+}
+.contact{
+    border: 2px solid lightblue;
+    padding: 20px 40px; 
+    background: #dddddd;
+    width: 300px;
+    border-radius: 25px;
+	text-align:center;
+	color: royalblue;
+}
+h3,legend,fieldset{
+	color: white;
+}
